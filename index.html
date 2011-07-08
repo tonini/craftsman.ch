@@ -1,0 +1,14 @@
+---
+layout: layout
+title: A craftsman's adventure
+---
+
+<div id="posts">
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      {% include post.html %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>

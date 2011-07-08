@@ -1,0 +1,125 @@
+html {
+
+}
+
+body {
+  background: #f0f0f0 url(../images/bg.gif) repeat -70% 0;
+  font-family: "Helvetica Neue", Helvetica, Calibri, Arial;
+  font-size: 14px;
+}
+
+header {
+  width: 700px;
+  margin: 0 auto;
+}
+
+a {
+  color: #bd2031;
+}
+
+#navigation ul {
+  float: right;
+  padding: 0;
+  margin: 7px 0 0 0 ;
+  list-style: none;
+}
+
+#navigation ul li {
+  display: bock;
+  float: left;
+  padding: 0 7px;
+  border-right: 1px solid gray;
+  margin: 0;
+}
+
+#navigation ul li:last-child {
+  border:none;
+  padding: 0 0 0 7px;
+}
+
+#navigation ul li a {
+  font-size: 1em;
+  padding-top:8px;
+  color: gray;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px white;
+}
+
+#navigation ul li a:hover {
+  text-decoration: underline;
+  color: gray;
+}
+
+#navigation {
+  background: red;
+  width: 700px;
+}
+
+#logo {
+  clear: both;
+  padding-top: 20px;
+}
+
+#content {
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+#posts ul {
+  padding: 0;
+  list-style: none;
+}
+
+.post {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1.6em;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 1px white;
+}
+
+.post h2 a {
+  color: #000;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px white;
+}
+
+.post h2 span.date {
+  float: right;
+  font-size: 0.6em;
+  padding-top:9px;
+  color: gray;
+}
+
+#content p {
+  font-size: 1.2em;
+  color: #666;
+  line-height: 1.4em;
+  margin: 0 0 20px 0;
+}
+
+hr {
+  width: 700px;
+  display: block;
+  margin: 10px auto;
+  border: 0;
+  border-bottom: 1px solid white;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.125);
+  color: rgba(0, 0, 0, 0.125);
+}
+
+#footer {
+  width: 700px;
+  margin: 10px auto 30px auto;
+}
+
+#footer p {
+  color: gray;
+  text-shadow: 1px 1px 1px white;
+  font-size: 0.9em;
+}
